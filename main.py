@@ -22,7 +22,7 @@ def start():
      draw()
      Yourhand+=1
  print("keep or mulligan")
- print("Press k or m")
+ print("\nPress k or m")
  KorM=input()
  if KorM=="k":
      sys.exit()
@@ -49,15 +49,3 @@ i=len(deck)
 #print(i)
 
 start()
-
-
-
-
-#print(shuffle)
-
-#print(stripNum)
-#print(deck[0])
-#print(deck[1])
-#print(deck[2])
-#print(deck[4])
-#print(deck[49])
